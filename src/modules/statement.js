@@ -8,8 +8,8 @@ const statement =()=>{
     tittle.classList.add('statement__title');
     p.classList.add('statement__parag');
 
-    tittle.textContent = "House of brach";
-    p.textContent = "Come and enjoy our decadent but healthy brunches, events and atmostphere.";
+    tittle.textContent = "House of brunch";
+    p.textContent = "Come and enjoy our decadent but healthy brunches, events and atmosphere.";
     
     container.append(tittle);
     container.append(p)

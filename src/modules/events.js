@@ -1,6 +1,6 @@
 const comingEvents = {
     event1: {
-        stagePerformance: 'Accoustic trio session',
+        stagePerformance: 'Acoustic trio session',
         date: '05/07/21'
     },
     event2: {
@@ -8,7 +8,7 @@ const comingEvents = {
         date: '03/03/21'
     },
     event3: {
-        stagePerformance: 'Open microphone: poetry session',
+        stagePerformance: 'Open mic: poetry session',
         date: '25/10/21'
     },
     event4: {
