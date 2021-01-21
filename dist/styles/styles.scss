@@ -1,0 +1,95 @@
+//constant values
+@import './modulesStyles/const.scss';
+
+//modules: statement, menu, events, booking
+@import './modulesStyles/statement.scss';
+@import './modulesStyles/menu.scss';
+@import './modulesStyles/events.scss';
+@import './modulesStyles/booking.scss';
+
+
+body{
+    background-color:$babyPowder;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.headerTittle{
+    align-items: center;
+    background-color: $AeroBlue;
+    color: $greenSheen;
+    display: flex;
+    font-family: $fontDancing;
+    font-size: 5em;
+    height: 16vh;
+    justify-content: center;
+}
+
+.NavList{
+    background-color: $cadet;
+    color: $celeste;
+    font-family: $fontsGeneral;
+    font-size: 1.5em;
+    height: 6vh;
+
+}
+.NavList__ul{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 0.5em;
+    &--mission{
+        &:hover{
+            color: $babyPowder;
+        }
+    }
+    &--menu{
+        &:hover{
+            color: $babyPowder;
+        }
+    }
+    &--events{
+        &:hover{
+            color: $babyPowder;
+        }
+    }
+    &--book{
+        &:hover{
+            color: $babyPowder;
+        }
+    }
+}
+
+
+.mainSection{
+    height: 62vh;
+}
+
+.footer{
+    align-items: center;
+    background-color: $AeroBlue;
+    color: $cadet;
+    display: flex;
+    font-family: $fontsGeneral;
+    font-size: 1.1em;
+    height: 16vh;
+    justify-content: space-around;
+    // margin-top: -15vh;
+    width: 100vw;
+    &__address{
+        align-items: center;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__hours{
+        align-items: center;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}

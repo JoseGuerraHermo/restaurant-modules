@@ -1,0 +1,72 @@
+@mixin imputsStyle{
+    color: $cadet;
+    font-family: $fontsGeneral;
+    font-size: 1.6em;
+    border:none;
+    border-radius: 3px;
+    background-image:none;
+    background-color:$AeroBlue;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+@mixin labels {
+    font-family: $fontsGeneral;
+    font-size: 1.6em;
+    margin-left: 1em;
+}
+
+.bookings{
+    background-color: $babyPowder;
+    color: $cadet;
+    display: flex;
+    flex-direction: column;
+    height: 62vh;
+}
+.form{
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-top: 3em;
+    &__tittle{
+        align-items: center;
+        display: flex;
+        font-family: $fontDancing;
+        font-size: 3em;
+        margin-top: 1em;
+        justify-content: center;
+    }
+    &__input--date{
+      @include imputsStyle();
+    }
+    &__input--hour{
+        @include imputsStyle();
+        margin-top: 1.5em;
+    }
+    &__input--guests{
+        @include imputsStyle();
+        margin-top: 1.5em;
+    }
+    &__label--date{
+        @include labels();
+    }
+    &__label--hour{
+        @include labels();
+        margin-top: 1.5em;
+    }
+    &__label--guest{
+        @include labels();
+        margin-top: 1.5em;
+    }
+}
+.button{
+    @include imputsStyle();
+    margin-top: 1.5em;
+}
+.button:active{
+    background-color: $AeroBlue;
+    color: $greenSheen;
+}
+

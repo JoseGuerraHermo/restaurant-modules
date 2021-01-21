@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAQA,OAAO,CAAC,6GAAI",
+    "sources": [
+        "const.scss"
+    ],
+    "names": [],
+    "file": "const.css"
+}

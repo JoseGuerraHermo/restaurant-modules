@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Quattrocento+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Quattrocento+Sans&display=swap");
+.statement {
+  background-color: #FCFFFD;
+  color: #5D737E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 62vh;
+}
+
+.statement__title {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Dancing Script", cursive;
+  font-size: 3em;
+  margin-top: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.statement__parag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.8em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 8vh;
+}
+
+.menuContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 62vh;
+  background-color: #FCFFFD;
+  color: #5D737E;
+}
+
+.menuContainer__title {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Dancing Script", cursive;
+  font-size: 3em;
+  margin-top: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menuContainer__name {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.8em;
+  margin-left: 3em;
+  margin-top: 0.7em;
+}
+
+.menuContainer__descrip {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.2em;
+  margin-left: 5em;
+  margin-top: 1em;
+}
+
+.menuContainer__price {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1em;
+  margin-left: 7em;
+  margin-top: 1em;
+}
+
+.events {
+  background-color: #FCFFFD;
+  color: #5D737E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 62vh;
+}
+
+.events__title {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Dancing Script", cursive;
+  font-size: 3em;
+  margin-top: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.events__deventDesc {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.5em;
+  margin-left: 3em;
+  margin-top: 1em;
+}
+
+.events__dates {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1em;
+  margin-left: 5em;
+  margin-top: 1em;
+}
+
+.bookings {
+  background-color: #FCFFFD;
+  color: #5D737E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 62vh;
+}
+
+.form {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3em;
+}
+
+.form__tittle {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Dancing Script", cursive;
+  font-size: 3em;
+  margin-top: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__input--date {
+  color: #5D737E;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.6em;
+  border: none;
+  border-radius: 3px;
+  background-image: none;
+  background-color: #DAFFEF;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.form__input--hour {
+  color: #5D737E;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.6em;
+  border: none;
+  border-radius: 3px;
+  background-image: none;
+  background-color: #DAFFEF;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-top: 1.5em;
+}
+
+.form__input--guests {
+  color: #5D737E;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.6em;
+  border: none;
+  border-radius: 3px;
+  background-image: none;
+  background-color: #DAFFEF;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-top: 1.5em;
+}
+
+.form__label--date {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.6em;
+  margin-left: 1em;
+}
+
+.form__label--hour {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.6em;
+  margin-left: 1em;
+  margin-top: 1.5em;
+}
+
+.form__label--guest {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.6em;
+  margin-left: 1em;
+  margin-top: 1.5em;
+}
+
+.button {
+  color: #5D737E;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.6em;
+  border: none;
+  border-radius: 3px;
+  background-image: none;
+  background-color: #DAFFEF;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-top: 1.5em;
+}
+
+.button:active {
+  background-color: #DAFFEF;
+  color: #64B6AC;
+}
+
+body {
+  background-color: #FCFFFD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.headerTittle {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #DAFFEF;
+  color: #64B6AC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Dancing Script", cursive;
+  font-size: 5em;
+  height: 16vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.NavList {
+  background-color: #5D737E;
+  color: #C0FDFB;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.5em;
+  height: 6vh;
+}
+
+.NavList__ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 0.5em;
+}
+
+.NavList__ul--mission:hover {
+  color: #FCFFFD;
+}
+
+.NavList__ul--menu:hover {
+  color: #FCFFFD;
+}
+
+.NavList__ul--events:hover {
+  color: #FCFFFD;
+}
+
+.NavList__ul--book:hover {
+  color: #FCFFFD;
+}
+
+.mainSection {
+  height: 62vh;
+}
+
+.footer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #DAFFEF;
+  color: #5D737E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.1em;
+  height: 16vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100vw;
+}
+
+.footer__address {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__hours {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=styles.css.map */
